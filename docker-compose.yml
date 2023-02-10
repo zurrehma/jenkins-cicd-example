@@ -2,7 +2,7 @@ version: '3'
 
 services:
   go-helloworld:
-    image: zahid401/jenkins-cicd-example:f3e1ac7
+    image: zahid401/jenkins-cicd-example:ac71e4d
     # build: .
     ports:
       - 9094:9094

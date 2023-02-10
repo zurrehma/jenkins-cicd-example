@@ -18,7 +18,7 @@ func HelloEurope(w http.ResponseWriter, r *http.Request) {
 func main() {
 	// Route all requests to HelloWorld
 	http.HandleFunc("/", HelloWorld)
-	http.HandleFunc("/", HelloEurope)
+	http.HandleFunc("/europe", HelloEurope)
 
 	// Listening on port 9094
 	http.ListenAndServe(":9094", nil)
