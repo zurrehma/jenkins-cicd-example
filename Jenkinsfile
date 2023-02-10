@@ -1,9 +1,9 @@
 // def REGISTRY_URL = 'hub.docker.com'
 def OWNER = 'zahid401'
 def REPO_NAME = 'jenkins-cicd-example'
-def IMAGE_NAME = 'helloworld'
+// def IMAGE_NAME = 'helloworld'
 
-def IMAGE_REGISTRY = "${OWNER}/${REPO_NAME}/${IMAGE_NAME}"
+def IMAGE_REGISTRY = "${OWNER}/${REPO_NAME}"
 def IMAGE_BRANCH_TAG = "${IMAGE_REGISTRY}"
 
 def REGISTRY_CREDENTIALS = 'docker-creds'
