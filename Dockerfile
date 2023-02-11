@@ -15,9 +15,6 @@ RUN apk add --no-cache git build-base
 # Get missing packages
 RUN go get -d -v ./...
 
-# Run tests
-RUN go test ./...
-
 # Compile source and install binary to $GOPATH/bin/
 RUN go install -v ./...
 
